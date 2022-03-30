@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+a {
+  color: white;
+}
+header {
+  background: black;
+}
+body {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.info-header {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background: #1188ee;
+  color: #ffffff;
+  padding: 10px 45px;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a .logo {
+  margin: 10px 45px;
+}
+.menu {
+  display: flex;
+  margin-right: 45px;
+  gap: 10px;
+  position: relative;
+}
+.menu a {
+  padding: 5px 10px;
+}
+.menu-1:hover::before {
+  content: "";
+  height: 2px;
+  width: 37px;
+  margin-top: 20px;
+  background: #ee2211;
+  position: absolute;
+}
+.menu-2:hover::before {
+  content: "";
+  height: 2px;
+  width: 42px;
+  margin-top: 20px;
+  background: #ee2211;
+  position: absolute;
+}
+.menu-3:hover::before {
+  content: "";
+  height: 2px;
+  width: 56px;
+  margin-top: 20px;
+  background: #ee2211;
+  position: absolute;
+}
+.menu-4:hover::before {
+  content: "";
+  height: 2px;
+  width: 90px;
+  margin-top: 20px;
+  background: #ee2211;
+  position: absolute;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #1188ee;
+  padding: 50px 45px;
+}
+footer p {
+  color: #ffffff;
+}
+footer img {
+  height: 40px;
+}
+.Matricula {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: #eff4f9;
+}
+.Matricula h1 {
+  color: #445566;
+  font-size: 72px;
+  font-family: "Alice", serif;
+}
+.bg-praia {
+  background: url(/imgs/surfbot-assets/bg-intro.jpg);
+  height: 400px;
+  display: grid;
+  align-items: flex-end;
+}
+.praia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 50px;
+}
+.praia h1 {
+  font-size: 72px;
+  font-family: "Alice", serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+.input-praia input {
+  height: 40px;
+  width: 300px;
+  border: none;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.input-praia {
+  background: #ee2211;
+  box-shadow: 0px 2px 4px 0px #17222d;
+}
+.input-praia a {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 24px;
+}
+.input-praia:hover {
+  background: #9d0e01;
+}
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 45px 60px;
+  gap: 100px;
+}
+.info-local {
+  position: relative;
+}
+.info-local h3::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url(/imgs/icones/Ellipse.svg) no-repeat;
+  left: -15px;
+  top: 8px;
+}
+.info-item-1::before {
+  content: "";
+  height: 2px;
+  width: 12px;
+  position: absolute;
+  background: #1188ee;
+  left: 2px;
+  top: 36px;
+}
+.info-item-2::before {
+  content: "";
+  height: 2px;
+  width: 12px;
+  position: absolute;
+  background: #1188ee;
+  left: 2px;
+  top: 58px;
+}
+.info-item-3::before {
+  content: "";
+  height: 2px;
+  width: 12px;
+  position: absolute;
+  background: #1188ee;
+  left: 2px;
+  top: 82px;
+}
+.info-local {
+  margin-left: 45px;
+}
+.info-local p {
+  margin-left: 20px;
+}
+.texto-sobre h2 {
+  font-size: 64px;
+  font-family: "Alice", serif;
+  font-weight: 400;
+  color: #17222d;
+}
+.texto-sobre h2 span {
+  color: #1188ee;
+}
+.texto-sobre div img {
+  max-width: 60px;
+}
+.texto-sobre div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 2px solid #e2e2e2;
+}
+.mapa {
+  margin-left: 28px;
+  margin-top: -120px;
+  margin-bottom: 60px;
+}
+.info-local h3,
+.info-local p {
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.info-local p span {
+  color: #99aabb;
+}
+.texto-sobre {
+  display: grid;
+}
+.texto-sobre div p {
+  font-size: 24px;
+  color: #445566;
+}
+.texto-1 {
+  margin-top: 60px;
+}
+.div-1 {
+  margin-top: 60px;
+}
+.aulas {
+  display: grid;
+  justify-content: center;
+  background: #eff4f9;
+}
+.ondas {
+  margin-top: -30px;
+  justify-self: center;
+}
+.aulas h2 {
+  font-size: 72px;
+  font-family: "Alice", serif;
+  font-weight: 400;
+  color: #445566;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  justify-self: center;
+}
+.tabelas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.tabela {
+  display: grid;
+  justify-content: center;
+  width: 370px;
+  height: 440px;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px 0px #BBCCDD40;
+  border-radius: 5px;
+}
+.icone-azul {
+  justify-self: center;
+  margin-top: -20px;
+}
+#botao {
+  justify-self: center;
+  align-self: center;
+  padding: 10px 30px;
+  background: #445566;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#botao:hover {
+  background: #ee2211;
+}
+.tabela h3 {
+  margin-top: -30px;
+  justify-self: center;
+  align-self: center;
+  padding: 0px 60px 30px 60px;
+  border-bottom: 2px solid #e2e2e2;
+}
+.tabela h4 {
+  border-bottom: 2px solid #e2e2e2;
+  color: #1188ee;
+}
+.info-aula {
+  justify-self: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.info-aula span {
+  color: #ee2211;
+}
+.bg-couth {
+  background: url(/imgs/surfbot-assets/foto-quote.jpg);
+  height: 480px;
+  margin-bottom: 160px;
+}
+.bg-couth h2 {
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 120px;
+  font-family: 'Alice', serif;
+  font-weight: 400;
+}
+.bg-couth p {
+  color: #ffffff;
+  text-align: center;
+}
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.ctt-inputs {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-left: 45px;
+}
+#input-name, #input-email {
+  width: 470px;
+  height: 50px;
+  background: #EFF4F9;
+  border-radius: 5px;
+  border: 1px solid #f2f3f3;
+  box-shadow: 0px 2px 2px 0px #bbccdd40;
+}
+#input-msg {
+  width: 470px;
+  height: 180px;
+  background: #EFF4F9;
+  border-radius: 5px;
+  border: 1px solid #f2f3f3;
+  box-shadow: 0px 2px 2px 0px #bbccdd40;
+}
+#botao-msg {
+  align-self: flex-start;
+  padding: 10px 30px;
+  background: #445566;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 48px;
+}
+#botao-msg:hover {
+  background: #ee2211;
+}
+#msg, #email {
+  margin-top: 10px;
+} 
+#msg, #email, #name {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #445566;
+} 
+.ctt-local div h3 {
+  margin-bottom: 5px;
+}
+.ctt-local div h5 {
+  margin-top: 10px;
+}
+.ctt-local{
+  margin-left: 200px;
+}
+.ctt-local-h3 {
+margin-top: 40px;
+}
+.ctt-local::before{
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 450px;
+  background: #eff4f9;
+  left: 650px;
+}
