@@ -154,7 +154,7 @@ footer img {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: url(/imgs/icones/Ellipse.svg) no-repeat;
+  background: url(../imgs/icones/Ellipse.svg) no-repeat;
   left: -15px;
   top: 8px;
 }
@@ -302,7 +302,7 @@ footer img {
   color: #ee2211;
 }
 .bg-couth {
-  background: url(/imgs/surfbot-assets/foto-quote.jpg);
+  background: url(../imgs/surfbot-assets/foto-quote.jpg);
   height: 480px;
   margin-bottom: 160px;
 }
