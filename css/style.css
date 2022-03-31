@@ -102,7 +102,7 @@ footer img {
   font-family: "Alice", serif;
 }
 .bg-praia {
-  background: url(/imgs/surfbot-assets/bg-intro.jpg);
+  background: url(../imgs/surfbot-assets/bg-intro.jpg);
   height: 400px;
   display: grid;
   align-items: flex-end;
@@ -264,7 +264,7 @@ footer img {
   width: 370px;
   height: 440px;
   background: #ffffff;
-  box-shadow: 0px 5px 5px 0px #BBCCDD40;
+  box-shadow: 0px 5px 5px 0px #bbccdd40;
   border-radius: 5px;
 }
 .icone-azul {
@@ -311,7 +311,7 @@ footer img {
   color: #ffffff;
   text-align: center;
   padding-top: 120px;
-  font-family: 'Alice', serif;
+  font-family: "Alice", serif;
   font-weight: 400;
 }
 .bg-couth p {
@@ -329,10 +329,11 @@ footer img {
   box-sizing: border-box;
   margin-left: 45px;
 }
-#input-name, #input-email {
+#input-name,
+#input-email {
   width: 470px;
   height: 50px;
-  background: #EFF4F9;
+  background: #eff4f9;
   border-radius: 5px;
   border: 1px solid #f2f3f3;
   box-shadow: 0px 2px 2px 0px #bbccdd40;
@@ -340,7 +341,7 @@ footer img {
 #input-msg {
   width: 470px;
   height: 180px;
-  background: #EFF4F9;
+  background: #eff4f9;
   border-radius: 5px;
   border: 1px solid #f2f3f3;
   box-shadow: 0px 2px 2px 0px #bbccdd40;
@@ -356,29 +357,32 @@ footer img {
 #botao-msg:hover {
   background: #ee2211;
 }
-#msg, #email {
+#msg,
+#email {
   margin-top: 10px;
-} 
-#msg, #email, #name {
+}
+#msg,
+#email,
+#name {
   margin-bottom: 5px;
   font-size: 18px;
-  font-family: 'Nunito',sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   color: #445566;
-} 
+}
 .ctt-local div h3 {
   margin-bottom: 5px;
 }
 .ctt-local div h5 {
   margin-top: 10px;
 }
-.ctt-local{
+.ctt-local {
   margin-left: 200px;
 }
 .ctt-local-h3 {
-margin-top: 40px;
+  margin-top: 40px;
 }
-.ctt-local::before{
+.ctt-local::before {
   content: "";
   position: absolute;
   width: 4px;
